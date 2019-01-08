@@ -20,3 +20,12 @@ function greet(person) {
 
 greet(person);
 
+gredo();
+
+function gredo() {
+    console.log('hi');
+}
+var anonGredo = function() {
+    console.log('hello jonnie');
+}
+anonGredo();
