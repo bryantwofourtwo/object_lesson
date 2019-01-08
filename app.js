@@ -1,11 +1,22 @@
 
-alert('Hola, asshole!');
 
-const person = new Object();
+var person = { 
+               firstName: 'Onlong', 
+               lastName: 'Begone',
+               address: {
+                street: '122 Main',
+                City: 'New York',
+                State: 'NY'
+            }
+            };
 
-person.firstName = 'Tony';
+console.log(person);
 
-console.log('person.firstName');
+console.log(person.address);
 
-console.log('person');
-console.log('firstName');
+function greet(person) {
+    console.log('Hi '  + person.firstName);    
+}
+
+greet(person);
+
